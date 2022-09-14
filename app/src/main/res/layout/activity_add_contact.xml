@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.AddContactActivity">
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/addTextName"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="228dp"
+        android:background="#CCC9C9"
+        android:hint="Kontakt Nomi"
+        android:paddingStart="20dp"
+        android:textSize="17sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="RtlSymmetry" />
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/addTextNumber"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="16dp"
+        android:background="#CCC9C9"
+        android:hint="Kontakt Raqam"
+        android:paddingStart="20dp"
+        android:textSize="17sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/addTextName"
+        tools:ignore="RtlSymmetry" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnAdd"
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#E36E6E"
+        android:padding="15dp"
+        android:text="@string/ss"
+        android:textSize="12sp"
+        android:textStyle="italic"
+        app:cornerRadius="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/addTextNumber"
+        app:layout_constraintVertical_bias="0.088" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

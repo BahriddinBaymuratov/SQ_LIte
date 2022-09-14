@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">SQLiteHomeWork</string>
+    <string name="a">Kontakt Qo\'shish</string>
+    <string name="b">Barcha Kontaklat Ro\'yhati</string>
+    <string name="c">Asosiy Oyna</string>
+    <string name="kontakt_qo_shish">Kontakt Qo\'shish</string>
+    <string name="kontaktlar_ro_yhati">Kontaktlar Ro\'yhati</string>
+    <string name="ss">Kontakt Qo\'shish</string>
+</resources>
